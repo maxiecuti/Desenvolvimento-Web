@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FAFAEF;
+    margin: 40px;
+}
+
+h1{
+    color: #b2a1b1;
+    opacity: 0.8;
+    text-shadow: #b2a1b1 2px 2px 4px;
+}
+
+h2{
+    color: #898388;
+    opacity: 0.9;
+    text-shadow: #898388 1px 1px 2px;
+}
+
+p{
+    color: #555151;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+img{
+    width: 600px;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+}
+
