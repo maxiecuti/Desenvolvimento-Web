@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F8F7F5;
+    height: 12vh;
+
+}
+
+.itens{
+    display: flex;
+    gap: 100px;
+}
+
+.botao{
+    background-color: #B95917;
+    color: #fafaef;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 20px;
+}
+
+.logo{
+    width: 200px;
+
+}
+
+.imagem img{
+    width: 98.8vw ;
+    height: 88vh;
+    object-fit: cover;
+    opacity: 70%;
+    z-index: 2;
+}
+
+.imagem{
+    background-color: black;
+    z-index: 1;
+}
+
+.descricao{
+    width: 98.5vw;
+    height: 88vh;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    flex-direction: column;
+}
+
+.hero{
+    width: 100vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero h1{
+    color: white;
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.hero p{
+    color: white;
+}
+
+.pesquisa{
+    padding: 1vh 5vh 1vh 1vw;
+    width: 400px;
+    border: none;
+    outline: orange;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.input_container{
+    margin-top: 10px;
+    padding: 2vw;
+    border-radius: 20px;
+    background-color: rgba(213, 213, 213, 0.628);
+}
+
+.livros{
+    min-height: 100vh;
+    padding: 4vw;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+.card{
+    background-color: white;
+    width: 200px;
+    height: 280px;
+    border-radius: 15px;
+    padding: 15px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+    transition: 0.2s;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.25);
+}
+
+.capa{
+    height: 140px;
+    background-color: #d6d6d6;
+    border-radius: 10px;
+}
+
+.capa img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.autor{
+    font-size: 14px;
+    color: #777;
+}
+
+.card .botao{
+    width: 100%;
+}
+
+/* EVENTOS */
+
+.eventos{
+background:#ece7e2;
+padding:80px 6vw;
+}
+
+.eventos-topo{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:40px;
+}
+
+.subtitulo{
+color:#B95917;
+font-size:12px;
+letter-spacing:1px;
+}
+
+.eventos-container{
+display:flex;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card-evento{
+background:white;
+padding:25px;
+border-radius:15px;
+width:300px;
+box-shadow:0px 5px 15px rgba(0,0,0,0.1);
+transition:0.2s;
+}
+
+.card-evento:hover{
+transform:translateY(-5px);
+box-shadow:0px 10px 20px rgba(0,0,0,0.2);
+}
+
+.data{
+background:#f3ebe6;
+width:60px;
+text-align:center;
+border-radius:10px;
+padding:10px;
+margin-bottom:15px;
+}
+
+.data span{
+font-size:20px;
+font-weight:bold;
+color:#B95917;
+}
+
+.data p{
+font-size:12px;
+margin:0;
+color:#B95917;
+}
+
+.descricao-evento{
+font-size:14px;
+color:#666;
+margin:10px 0;
+}
+
+.card-evento a{
+color:#B95917;
+text-decoration:none;
+font-weight:bold;
+}
+
+.help{
+text-align:center;
+padding:80px 20px;
+background:#f4f4f4;
+}
+
+.help h2{
+font-size:32px;
+margin-bottom:10px;
+}
+
+.sub{
+color:#777;
+margin-bottom:40px;
+}
+
+.servicos{
+display:flex;
+justify-content:center;
+gap:80px;
+}
+
+.servico{
+max-width:220px;
+}
+
+.icone{
+background:#c26014;
+color:white;
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:24px;
+margin:auto;
+margin-bottom:15px;
+}
+
+.servico h3{
+margin-bottom:10px;
+}
+
+/* FOOTER */
+
+.footer{
+background:#3a2114;
+color:white;
+padding:60px 40px;
+}
+
+.footer-container{
+display:flex;
+justify-content:space-between;
+}
+
+.footer-col{
+max-width:220px;
+}
+
+.footer-col h4{
+margin-bottom:15px;
+}
+
+.footer-col p{
+color:#ccc;
+margin-bottom:8px;
+}
